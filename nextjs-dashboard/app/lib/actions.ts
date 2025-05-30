@@ -112,7 +112,6 @@ export async function deleteInvoice(id: string) {
   redirect('/dashboard/invoices');
 }
 
-
 // Add the authenticate function
 export async function authenticate(
   prevState: string | undefined,
@@ -132,3 +131,4 @@ export async function authenticate(
     throw error;
   }
 }
+
