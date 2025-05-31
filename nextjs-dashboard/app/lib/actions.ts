@@ -1,5 +1,5 @@
 'use server';
-
+// This file contains server actions for managing invoices in a Next.js dashboard application.
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
